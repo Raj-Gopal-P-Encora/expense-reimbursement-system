@@ -1,0 +1,83 @@
+.employee-list {
+    padding: 20px;
+    background-color: #121212;
+    color: #E0E0E0;
+    min-height: 100vh;
+}
+
+.employee-list h2 {
+    color: #E0E0E0;
+    margin-bottom: 20px;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.employee-table th,
+.employee-table td {
+    padding: 12px 15px;
+    border: 1px solid #444444;
+    text-align: left;
+}
+
+.employee-table th {
+    background-color: #1f1f1f;
+    color: #E0E0E0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.employee-table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.employee-table tbody tr:hover {
+    background-color: #2a2a2a;
+}
+
+.actions-cell {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.action-link {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.95em;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.add-expense-link {
+    background-color: #3f51b5;
+    color: #ffffff;
+    border: 1px solid #3f51b5;
+}
+
+.add-expense-link:hover {
+    background-color: #5c6bc0;
+}
+
+.view-expenses-link {
+    background-color: transparent;
+    color: #888888;
+    border: 1px solid #888888;
+}
+
+.view-expenses-link:hover {
+    background-color: #444444;
+    color: #E0E0E0;
+}
+
+.employee-list > p {
+    color: #B0B0B0;
+    margin-top: 20px;
+    font-style: italic;
+}

@@ -1,0 +1,123 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #121212;
+}
+
+.register-form {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    max-width: 400px;
+    color: #E0E0E0;
+}
+
+.register-form h2 {
+    color: #E0E0E0;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #B0B0B0;
+    font-size: 0.9em;
+}
+
+.register-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+    color: #E0E0E0;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+
+.register-input:focus {
+    border-color: #888888;
+    outline: none;
+}
+
+.checkbox-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #B0B0B0;
+    font-size: 1em;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: 10px;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #888888;
+    border-radius: 3px;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+}
+
+.checkbox-label input[type="checkbox"]:checked {
+    background-color: #3f51b5;
+    border-color: #3f51b5;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.register-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #3f51b5;
+    color: #ffffff;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.register-btn:hover {
+    background-color: #5c6bc0;
+}
+
+.register-btn:active {
+    transform: translateY(1px);
+}
+
+.back-link {
+    color: #888888;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 10px 0;
+}
+
+.back-link:hover {
+    color: #B0B0B0;
+    text-decoration: underline;
+}
